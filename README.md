@@ -1,6 +1,8 @@
 # KiCad PCB Designs
 
-Two PCB projects designed in KiCad: a digital voltmeter and a 220 V AC LED lamp. Each folder contains the schematic, the PCB layout and 3D renders.
+Two PCB projects designed in KiCad: a digital voltmeter and a 220 V AC LED lamp. Each folder contains the KiCad project, the schematic, the PCB layout and a 3D render.
+
+> **Design process:** both boards are my own designs, created in KiCad with AI-assisted guidance. I use AI as a tutor to learn circuit design, and I work through each block of the circuit to understand it.
 
 ## 1. Digital voltmeter (`voltmeter/`)
 
@@ -13,6 +15,10 @@ A voltmeter board built around an **ATmega328P** with a 16 MHz crystal and a 16x
 
 **Status:** designed in KiCad. [Add whether you assembled and tested it, and the measurement range]
 
+![Voltmeter schematic](voltmeter/voltmeter%20schematic.png)
+![Voltmeter PCB layout](voltmeter/voltmeter%20pcb.png)
+![Voltmeter 3D view](voltmeter/voltmeter%203d.png)
+
 ## 2. LED lamp (`led-lamp/`)
 
 A compact LED lamp powered from the 220 V AC mains.
@@ -22,6 +28,10 @@ A compact LED lamp powered from the 220 V AC mains.
 - **Passive parts:** current-limiting and bleeder resistors, smoothing capacitors
 
 **Status:** designed in KiCad. [Add whether you built or tested it]
+
+![LED lamp schematic](led-lamp/led%20circuit%20schematic.png)
+![LED lamp PCB layout](led-lamp/led%20circuit%20pcb.png)
+![LED lamp 3D view](led-lamp/led%20circuit%203d.png)
 
 > ⚠️ **Safety warning:** this circuit connects directly to 220 V mains and has no galvanic isolation. Every part of the circuit can be at mains potential. Do not build or touch it unless you know how to work safely with mains voltage. It is shared for educational purposes only.
 
